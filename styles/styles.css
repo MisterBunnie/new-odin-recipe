@@ -1,0 +1,62 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    height: 100%;
+    color: white;
+}
+
+body{
+    height: 100%;
+    background-color: brown;
+}
+
+*{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+p{
+    text-align: center;
+    padding:1em
+}
+img{
+    display: block;
+    margin: auto;
+    border: 2px solid;
+    border-color: brown;
+}
+#cWd-image{
+    width: 450px;
+    height: auto;
+}
+.cWd-recipe-list{
+    text-align: center;
+    list-style-type: none;
+    padding: 1em;
+}
+.cWd-recipe-list li{
+    margin-bottom: 5px;
+}
+a{
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border:1px solid white;
+    box-shadow: 0 0 10px;
+    padding: 0 1em 0 1em;
+}
+a:hover{
+    background: black;
+    color: white;
+    border:2px solid brown;
+}
+.cWd-home{
+    margin-left: 10px;
+}
